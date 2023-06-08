@@ -1,0 +1,39 @@
+@import url(styles/header.css);
+@import url(styles/main.css);
+@import url(styles/about.css);
+@import url(styles/projects.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap');
+
+
+:root {
+    --cor-primaria: #FFFFFF;
+    --cor-secundaria: #70FF00;
+    --cor-terciaria: #828282;   
+
+    --fonte-primaria: 'Roboto', sans-serif;
+    --fonte-secundaria: 'Courier Prime', monospace;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    width: 100%;
+    
+    background: linear-gradient(130.36deg, #000000 0%, #272727 44.03%, #494949 99.99%, #727272 100%);
+    color: var(--cor-primaria);
+    
+    font-family: var(--fonte-primaria);
+    font-style: normal;
+    font-weight: 700;
+}
+
+
+
+
