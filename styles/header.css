@@ -48,6 +48,7 @@
     padding: 0.25em;
     border: 1px solid var(--cor-secundaria);
     border-radius: 13px;
+    justify-content: center;
 
     font-family: var(--fonte-primaria);
     font-style: normal;
@@ -86,16 +87,24 @@
         flex-direction: column;
         align-items: center;
     }
+
     .header__nav__link--home {
+        margin: 0 0 0.5em 1em;
         margin-right: 0;
         margin-bottom: 0.5em;
+        font-size: 3em;
+    }
+
+    .header__nav__link {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header__nav__link__principal {
+        padding: 0.5em;
         font-size: 2em;
     }
-    .header__nav__link__principal {
-        display: block;
-        padding: 0.5em;
-        font-size: 1.2em;
-    }
+
     .header__nav__link__contato {
         margin-top: 1em;
         flex-direction: column;
